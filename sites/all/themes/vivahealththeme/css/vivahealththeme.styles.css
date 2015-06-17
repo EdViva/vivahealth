@@ -1,5 +1,329 @@
+/* No files to import found in abstractions/**\/* */
+@import url("http://fonts.googleapis.com/css?family=Lato");
+@import url("http://fonts.googleapis.com/css?family=Slabo+13px");
+
+
+/* line 1, ../sass/base/_media.scss */
 img, media {
   max-width: 100%;
+  height:auto;
+  }
+  
+
+ul {
+    list-style-image: url('../images/vegan-bullet.png');
+} 
+
+/* line 26, ../sass/vivahealththeme.styles.scss */
+body {
+  font-family: Lato, arial, sans-serif;
+  color:#313131;}
+
+/* line 30, ../sass/vivahealththeme.styles.scss */
+.tb-megamenu li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.1em; }
+
+/* line 32, ../sass/vivahealththeme.styles.scss */
+.front h1 {
+  display: none;
+  }
+
+/* line 36, ../sass/vivahealththeme.styles.scss */
+h1 {
+  color: #6a6a6a;
+  font-family: 'Slabo 13px', serif;
+  font-size:3em;
+  font-weight:normal;
+  }
+  
+a {
+color:#20bfb6;
+text-decoration:underline;
 }
 
-/* No files to import found in partials/components/**\/* */
+a:hover {
+text-decoration:none;
+}
+
+
+/* line 41, ../sass/vivahealththeme.styles.scss */
+.tb-megamenu {
+  background-color: #313131; }
+
+.tb-megamenu ul {
+list-style-type: square;
+}
+
+.tb-megamenu-subnav {
+list-style-type: square;
+}
+
+/* line 45, ../sass/vivahealththeme.styles.scss */
+.tb-megamenu .dropdown-menu {
+  border-color:none;
+  background-color:#f1f1f1;}
+
+/* line 50, ../sass/vivahealththeme.styles.scss */
+.tb-megamenu .nav li.dropdown.active > .dropdown-toggle, .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle, .tb-megamenu .nav > li.dropdown.open.active > a:hover {
+  background-color: #6a6a6a; }
+
+/* line 55, ../sass/vivahealththeme.styles.scss */
+.site-logo {
+  margin-bottom: 10px; }
+
+/* line 59, ../sass/vivahealththeme.styles.scss */
+.l-header {
+  margin-top: 20px; }
+
+/*# sourceMappingURL=vivahealththeme.styles.css.map */
+
+
+.tb-megamenu-item:nth-child(1) {border-bottom:solid 5px #6a6a6a;}
+.tb-megamenu-item:nth-child(2) {border-bottom:solid 5px #20bfb6;}
+.tb-megamenu-item:nth-child(3) {border-bottom:solid 5px #f8b53a;}
+.tb-megamenu-item:nth-child(4) {border-bottom:solid 5px #6eca3e;}
+.tb-megamenu-item:nth-child(5) {border-bottom:solid 5px #fb7d3b;}
+.tb-megamenu-item:nth-child(6) {background-color:#cc0000;border-bottom:solid 5px #cc0000;}
+
+.tb-megamenu-item .level-2 {border-bottom:none;background-color:transparent;}
+.tb-megamenu-item .level-3 {border-bottom:none;background-color:transparent;}
+.tb-megamenu .nav > li > a {padding: 10px 20px;}
+
+.l-footer {
+width:100%;
+background-color:#f1f1f1;
+}
+
+.l-footer .menu .expanded {
+display:inline;
+float:left;
+}
+
+.field--name-field-summary {
+background-color:#f1f1f1;
+padding:10px;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+/* bones break free campaign menu */
+
+#block-block-8 {
+background-color:#eaf5ff;
+padding:10px;
+}
+
+#block-block-8 a{
+font-color:#083052;
+}
+
+#block-block-8 h2 {
+font-weight:normal;
+margin-top:0px;
+}
+
+#block-block-8 h2 a{
+text-decoration:none;
+}
+
+#block-menu-menu-bones-campaign ul, #block-menu-menu-breast-cancer ul, #block-menu-menu-diabetes-campaign ul, #block-menu-menu-heart-health ul, #block-menu-menu-globesity-campaign ul, #block-menu-menu-white-meat ul, #block-menu-menu-safeguarding-children-s-hea ul, #block-menu-menu-fish-menu ul {
+list-style-type:none;
+padding-left: 0;
+}
+
+
+#block-menu-menu-bones-campaign ul li, #block-menu-menu-breast-cancer ul li, #block-menu-menu-diabetes-campaign ul li, #block-menu-menu-globesity-campaign ul li, #block-menu-menu-heart-health ul li, #block-menu-menu-white-meat ul li, #block-menu-menu-safeguarding-children-s-hea ul li, #block-menu-menu-fish-menu ul li {
+    list-style-image: none;
+    list-style-type: none;
+}
+
+#block-menu-menu-bones-campaign a, #block-menu-menu-breast-cancer a, #block-menu-menu-diabetes-campaign a, #block-menu-menu-heart-health a, #block-menu-menu-globesity-campaign a, #block-menu-menu-white-meat a, #block-menu-menu-safeguarding-children-s-hea a, #block-menu-menu-fish-menu a
+{
+background-color:#b7e2f6;
+display:block;
+padding:10px;
+margin-bottom:2px;
+width:100%;
+height:auto;
+text-decoration:none;
+color:#112846;
+}
+
+#block-menu-menu-breast-cancer a {
+background-color:#231f20;
+color:#ffffff;
+}
+
+#block-menu-menu-diabetes-campaign a {
+background-color:#f7ecff;
+color:#9d2e8f;
+}
+
+#block-menu-menu-heart-health a {
+background-color:#f9013b;
+color:#ffffff;
+}
+
+#block-menu-menu-globesity-campaign a {
+background-color:#54b948;
+color:#ffffff;
+}
+
+#block-menu-menu-white-meat a {
+background-color:#231f20;
+color:#ffffff;
+}
+
+#block-menu-menu-bones-campaign a:hover {
+background-color:#a1d4eb;
+}
+
+#block-menu-menu-breast-cancer a:hover {
+background-color:#ec008c;
+color:#ffffff;
+}
+
+#block-menu-menu-diabetes-campaign a:hover {
+background-color:#f1dfff;
+color:#9d2e8f;
+}
+
+#block-menu-menu-heart-health a:hover {
+background-color:#f97c9a;
+color:#ffffff;
+}
+
+#block-menu-menu-globesity-campaign a:hover {
+background-color:#3bd628;
+color:#ffffff;
+}
+
+#block-menu-menu-white-meat a:hover {
+background-color:#e21400;
+color:#ffffff;
+}
+
+#block-block-8 {
+background-color:#b7e2f6;
+padding:10px;
+}
+
+#block-block-8 a {
+text-decoration:none;
+color:#313131;
+}
+
+#block-easy-breadcrumb-easy-breadcrumb {
+margin-top:20px;
+background-color:#eeeeee;
+padding:5px;
+display:block;
+}
+
+#field--type-image {
+float:left;
+width:60%;
+}
+
+.menu .leaf {
+color: #20bfb6;
+list-style-image:none;
+}
+
+#block-book-navigation ul {padding-left:15px;}
+
+.l-region--sidebar-first h2 {
+color:#6a6a6a;
+font-family: 'Slabo 13px', serif;
+}
+
+.l-branding {
+margin-bottom:10px;
+}
+
+.l-footer ul {
+    display: block;
+    line-height: 1.6em;
+    list-style: outside none none;
+    margin-left: 0;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 20px;
+	padding-bottom:40px;
+}
+
+.l-footer a {
+color:#313131;
+text-decoration:none;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #6a6a6a;
+	clear:both;
+	margin:5px 0 5px 0;
+}
+
+td {
+    border: 1px solid #eeeeee;
+    padding: 10px;
+}
+
+.view-news-lists td {
+border:none;
+}
+
+.view-news-lists .views-field-title a {
+text-decoration:none;
+color: #6a6a6a;
+font-size:1.3em;
+padding-bottom:5px;
+padding-top:5px;
+display: block;
+font-family: "Slabo 13px",serif;
+}
+
+.field--name-field-box-out .field__item {
+width:220px;
+padding:10px;
+border:solid 1px #6a6a6a;
+margin:10px;
+float:right;
+clear: right;
+}
+
+.view-news-lists .views-row {
+border-top:dashed 1px #f1f1f1;
+margin-bottom:1em;
+clear: both;
+}
+
+.views-field-field-image {
+width:220px;
+float:left;
+margin:0.5em 1em 0.5em 0;
+}
+
+#block-search-form, #block-block-2 {
+text-align:right;
+}
+
+.views-field-field-food, .views-field-field-topic-health, .field--type-taxonomy-term-reference {
+display:inline-block;
+}
+
+.views-field-field-food a, .views-field-field-topic-health a, .field--type-taxonomy-term-reference a {
+background-color:#20bfb6;
+color:#ffffff;
+text-decoration:none;
+padding: 0 5px 2px;
+margin-right:5px;
+font-size:0.9em;
+}
+
+.views-field-field-food a:hover, .views-field-field-topic-health a:hover, .field--type-taxonomy-term-reference a:hover {
+background-color:#6a6a6a;
+}

@@ -1,5 +1,47 @@
+/* No files to import found in abstractions/**\/* */
+@import url("http://fonts.googleapis.com/css?family=Lato");
+@import url("http://fonts.googleapis.com/css?family=Slabo+13px");
+/* line 1, ../sass/base/_media.scss */
 img, media {
-  max-width: 100%;
-}
+  max-width: 100%; }
 
-/* No files to import found in partials/components/**\/* */
+/* line 26, ../sass/vivahealththeme.styles.scss */
+body {
+  font-family: Lato, arial, sans-serif; }
+
+/* line 30, ../sass/vivahealththeme.styles.scss */
+.tb-megamenu li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2em; }
+
+/* line 32, ../sass/vivahealththeme.styles.scss */
+.front h1 {
+  display: none; }
+
+/* line 36, ../sass/vivahealththeme.styles.scss */
+h1 {
+  color: #6a6a6a;
+  font-family: Slabo, Slabo 13px, Georgia, Serif; }
+
+/* line 41, ../sass/vivahealththeme.styles.scss */
+.tb-megamenu {
+  background-color: #313131; }
+
+/* line 45, ../sass/vivahealththeme.styles.scss */
+.tb-megamenu .dropdown-menu {
+  border-color: #6eca3e; }
+
+/* line 50, ../sass/vivahealththeme.styles.scss */
+.tb-megamenu .nav li.dropdown.active > .dropdown-toggle, .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle, .tb-megamenu .nav > li.dropdown.open.active > a:hover {
+  background-color: #6a6a6a; }
+
+/* line 55, ../sass/vivahealththeme.styles.scss */
+.site-logo {
+  margin-bottom: 10px; }
+
+/* line 59, ../sass/vivahealththeme.styles.scss */
+.l-header {
+  margin-top: 20px; }
+
+/*# sourceMappingURL=vivahealththeme.no-query.css.map */
