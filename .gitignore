@@ -1,6 +1,7 @@
 # Ignore configuration files that may contain sensitive information.
 sites/*/settings*.php
-
+sites/default/vivahealth.sql
+sites/default/vivahealth.tar.gz
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
